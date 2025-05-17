@@ -1,4 +1,4 @@
-import SideTree from "../SideTree"
+import SideTree from "../TreeExplorer/SideTree"
 import TopBar from "../TopBar"
 
 export default function Dashboard() {
