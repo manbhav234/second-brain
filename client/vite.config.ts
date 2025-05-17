@@ -10,4 +10,9 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src/'), // or wherever your base folder is
     },
   },
+    server: {
+    proxy: {
+      '/api/v1' : {target: 'http://localhost:3000'}
+    }
+  },
 })
